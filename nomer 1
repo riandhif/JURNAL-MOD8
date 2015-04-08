@@ -1,0 +1,21 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    int a=1,b=0,i;
+    cout << "masukan nilai : ";
+    cin >> i;
+    while (b<i-3)
+    {
+        cout<<a;
+        a=a+(a-1);
+        cout<<a;
+        a=a+1;
+        b=b+1;
+    }
+
+getch();
+}
